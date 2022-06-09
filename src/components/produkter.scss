@@ -1,0 +1,50 @@
+@import "../sass/variables";
+
+.col_produkter_title {
+    background-color: #6b6b6b;
+    border-radius: 2px;
+    
+    
+}
+.row_rejse_title {
+margin-bottom: 100px;
+}
+
+
+.h1_title_produkter {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0.5rem;
+    
+}
+
+.div_cards {
+    background-color: white;
+    min-height: 600px;
+    margin-bottom: 1rem;
+}
+
+.h4_content {
+   
+    padding-bottom: 0rem;
+}
+
+.p_dato {
+    color: lightgray;
+   
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+.p_teaser {
+    
+    padding-top: 0rem;
+    font-family: $font_content;
+}
+
+
+.div_content_padding {
+    padding: 1rem;
+}

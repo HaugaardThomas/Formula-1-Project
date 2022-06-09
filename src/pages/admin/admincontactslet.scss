@@ -1,0 +1,10 @@
+@import "../../sass/variables";
+
+.div_card_beskeder {
+    border: 2px black solid;
+    margin-top: 20px !important;
+}
+
+.div_beskeder_message {
+    border: 2px $col_red solid;
+}

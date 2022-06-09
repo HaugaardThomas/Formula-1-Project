@@ -1,0 +1,12 @@
+@import "../sass/variables";
+
+.col_footer {
+    background-color: #6b6b6b;
+    padding: 1rem;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.footer_strong_red {
+    color: $col_red;
+}

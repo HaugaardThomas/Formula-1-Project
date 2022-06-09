@@ -1,0 +1,53 @@
+@import "../sass/variables";
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0)
+    }
+    40% {
+        transform: translateY(-15px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+.container_header {
+    height: 100vh;
+}
+.arrow_bounce {
+    animation: 4s infinite bounce; 
+    animation-delay: 2s;
+  
+    bottom: 0rem;
+    width: 5rem;
+}
+.col_header_arrow {
+    padding-top: 43vh;
+}
+
+
+
+
+
+
+
+.header_col_events {
+    color: $col_red;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: 3rem !important;
+}
+
+.header_col_travels {
+    color: $col_red;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: 3rem !important;
+}
+
+.row_arrow_down {
+    margin-top: 4rem !important;
+}
+
+
+
